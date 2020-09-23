@@ -1,0 +1,30 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "![](https://programacion.net/files/article/20170428010447_pokemon.jpg)\r <html>\r     <head>\r         <title>pokeapp</title>\r         <link rel=\"stylesheet\" href=\"css/estilos.css\" />\r     </head>\r     <body>\r         <div id=\"container\">\r             <div id=\"cabecera\">\r             <h1>Proyecto Descripción </h1>\r                Se consume una api externa con node js en el back y express como framework para el mismo y bootstrap en sus vistas .\r                 <span id=\"tagline\"></span>\r             </div>\r             <div id=\"post\">\r                 <h1></h1>\r         Comenzando 🚀\r                 <p>\r Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.</p>\r                 <p></p>\r                 <p>Pre-requisitos 📋</p>",
+  "main": "ui\\src\\app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rodrigo Linares",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-mdz/pokeapi-node.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rodrigo-mdz/pokeapi-node.js/issues"
+  },
+  "homepage": "https://github.com/rodrigo-mdz/pokeapi-node.js#readme"
+}

@@ -1,0 +1,231 @@
+ /* My rules: */
+
+ .button-sm {
+   display: inline-block;
+   height: 25px;
+   padding: 0 30px;
+   color: #333;
+   text-align: center;
+   font-size: 10px;
+   font-weight: 600;
+   line-height: 24px;
+   letter-spacing: .1rem;
+   text-transform: uppercase;
+   text-decoration: none;
+   white-space: nowrap;
+   background-color: #bbb;
+   border-radius: 4px;
+   border: 1px solid #333;
+   cursor: pointer;
+   box-sizing: border-box;
+ }
+
+ .text-error {
+   color: red;
+   text-align: center;
+ }
+
+ input[type="text"]:focus.input-error {
+   border: 1px solid red;
+   outline: 0;
+ }
+
+ .font-size-small {
+   font-size: small;
+   margin: 0px;
+ }
+
+ .font-size-smaller {
+   font-size: smaller;
+   margin: 0px;
+ }
+
+ .position-frame {
+   display: inline-block;
+   padding: 0px 2px;
+   margin: 7px 0px 5px 0px;
+   border: 1px solid #bbb;
+   border-radius: 5px;
+ }
+
+ /*
+ .card {
+   display: inline-block;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   border-radius: 5px;
+   width: 100%;
+   margin: 4px 4px;
+   border: 1px solid #bbb;
+   background-color: #FFF;
+ }
+
+ /* On mouse-over, add a deeper shadow */
+
+ /*
+ .card:hover {
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+ }*/
+
+ .cardTwo {
+   /* Add shadows to create the "card" effect */
+   display: inline-block;
+   box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   border-radius: 5px;
+   width: 30%;
+   margin: 8px 8px;
+   border: 1px solid #bbb;
+   background-color: #FFF;
+ }
+
+ /* On mouse-over, add a deeper shadow */
+
+ .cardTwo:hover {
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+ }
+
+ .figure-card {
+   margin: 5px 40px;
+ }
+
+ .pokemon-img-list {
+   width: 100%;
+   border: 1px solid #bbb;
+   border-radius: 5px 5px;
+   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .img-error {
+   width: 60%;
+   border-radius: 5px 5px;
+   border: 2px solid red;
+   box-shadow: 0 0 7px red;
+   margin: 0px 48px;
+   padding: auto;
+ }
+
+ .first-select-card {
+   height: 20px;
+   width: 64%;
+   padding: 0px;
+   margin: 0px;
+ }
+
+ .second-select-card {
+   height: 20px;
+   width: 56%;
+   padding: 0px;
+   margin: 0px;
+ }
+
+ .ul-card {
+   margin: 0px 0px 20px 0px;
+ }
+
+ .first-select-cardTwo {
+   height: 20px;
+   width: 97px;
+   padding: 0px;
+   margin: 0px;
+ }
+
+ .second-select-cardTwo {
+   height: 20px;
+   width: 51%;
+   padding: 0px;
+   margin: 0px;
+ }
+
+ .label-inline {
+   display: inline;
+ }
+
+ .checkbox {
+   margin: 0px;
+ }
+
+ .img-checkbox {
+   width: 11%;
+ }
+
+ .card-head-title {
+   text-align: center;
+   margin: 5px;
+ }
+
+ .pokemon-img-search {
+   width: 35%;
+   border: 1px solid #bbb;
+   border-radius: 5px 5px;
+   margin: 0px 77px;
+   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .scroll {
+   width: auto;
+   height: 539px;
+   margin: 0px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+
+ .scroll-collection {
+   width: auto;
+   height: 200px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+
+ .scroll-table {
+   width: auto;
+   height: 187px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+
+ /*Scroll personalizado*/
+
+ .scroll-table::-webkit-scrollbar {
+   width: 6px;
+ }
+
+ .scroll-table::-webkit-scrollbar-thumb {
+   background: lightgray;
+   border-radius: 5px;
+ }
+
+ .scroll::-webkit-scrollbar {
+   width: 7px;
+ }
+
+ .scroll::-webkit-scrollbar-thumb {
+   background: lightgray;
+   border-radius: 5px;
+ }
+
+ .scroll-card-user {
+   width: auto;
+   height: 400px;
+   margin: 0px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+
+ .scroll-collection::-webkit-scrollbar {
+   width: 7px;
+ }
+
+ .scroll-collection::-webkit-scrollbar-thumb {
+   background: lightgray;
+   border-radius: 5px;
+ }
+
+ .container-card {
+   position: relative;
+   width: 100%;
+   max-width: 1000px;
+   margin: 3px auto;
+   padding: 0 20px;
+   box-sizing: border-box;
+ }
