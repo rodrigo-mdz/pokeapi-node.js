@@ -17,9 +17,9 @@ app.use(express.json());
 app.use(cors());
 
 //configuracion global de rutas
-//  app.use(require('./routes/index'));
+ app.use(require('./routes/index'));
 
-app.use(express.static(__dirname ));
+//app.use(express.static(__dirname ));
 //Levanto el servidor
 app.listen(app.get('port'), () => {
   console.log(`Listening over port: ${app.get('port')}`);
